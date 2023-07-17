@@ -1,0 +1,48 @@
+body{
+    background: var(--yellow, #F3C76B);
+}
+
+.footer-container {
+    width: 393px;
+    background: var(--yellow, #f3c76b);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+    padding: 20px; /* Optional: Add some padding around the content */
+  }
+
+  
+  .logo {
+    width: 161px;
+    height: 58px;
+  }
+  .frame1{
+    display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 18px;
+
+  }
+  .Subheader {
+    color: #000;
+    /* Subheader */
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.165px;
+  }
+  
+  .small-text {
+    color: #000;
+    /* Smaller Text */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.165px;
+  }
+  
