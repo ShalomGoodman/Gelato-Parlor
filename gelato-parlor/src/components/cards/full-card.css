@@ -3,6 +3,18 @@
     border-radius: 10px;
 }
 
+.full-card__description.dark {
+    color: #ffffff;
+}
+
+.full-card__title.dark {
+    color: #F3C76B;
+}
+
+.full-card__content.dark {
+    background-color: #2f1921;
+}
+
 .full-card__content  {
     background: ffffff;
     padding: 16px 9px 16px 16px;
@@ -73,15 +85,3 @@
     user-select: none;
 }
 
-
-.full-card__description.dark {
-    color: #ffffff;
-}
-
-.full-card__title.dark {
-    color: #F3C76B;
-}
-
-.full-card__content.dark {
-    background-color: #2F1921;
-}

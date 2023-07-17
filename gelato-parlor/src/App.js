@@ -1,14 +1,17 @@
 import React from 'react';
 import './App.css';
-import Header from './components/header/header'; // Assuming Header.js is in the same directory
+import Header from './components/header/header';
 import FullCard from './components/cards/full-card';
+import { ThemeProvider } from '../src/context/themeContext';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <FullCard />
-    </div>
+    <ThemeProvider> 
+      <div className="App">
+        <Header />
+        <FullCard />
+      </div>
+    </ThemeProvider>
   );
 }
 
