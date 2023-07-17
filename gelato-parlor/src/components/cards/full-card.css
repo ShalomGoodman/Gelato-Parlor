@@ -3,8 +3,8 @@
     border-radius: 10px;
 }
 
-.full-card__content {
-    background: var(--dark-brown, #2F1921);
+.full-card__content  {
+    background: ffffff;
     padding: 16px 9px 16px 16px;
     display: flex;
     flex-direction: column;
@@ -28,7 +28,7 @@
 }
 
 .full-card__title {
-    color: var(--yellow, #F3C76B);
+    color: #000000;
     /* Subheader styles */
     font-family: Inter;
     font-size: 17px;
@@ -40,7 +40,7 @@
 }
 
 .full-card__description {
-    color: var(--white, #FFF);
+    color: #000000;
     /* Smaller Text styles */
     font-family: Inter;
     font-size: 14px;
@@ -70,4 +70,18 @@
     font-weight: 600;
     line-height: normal;
     letter-spacing: -0.165px;
+    user-select: none;
+}
+
+
+.full-card__description.dark {
+    color: #ffffff;
+}
+
+.full-card__title.dark {
+    color: #F3C76B;
+}
+
+.full-card__content.dark {
+    background-color: #2F1921;
 }
