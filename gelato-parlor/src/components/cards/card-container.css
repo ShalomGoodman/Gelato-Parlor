@@ -1,6 +1,8 @@
 .card-container {
     display: flex;
     gap: 20px;  /* adjust this value to increase or decrease the space between cards */
+    margin: 0 17px;
+    margin-bottom: 16px;
     background-color: #f3c76b;  /* light mode background color */
     color: #000;  /* light mode text color */
 }
