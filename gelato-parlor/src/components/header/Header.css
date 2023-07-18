@@ -8,7 +8,11 @@
     flex-shrink: 0;
     background: #F9F9F9;
   }
-  
+
+  .header-container.dark {
+    background: #2f1921;  /* Dark mode background color */
+}
+
   .logo-container {
     width: 130px;
     height: 45px;
