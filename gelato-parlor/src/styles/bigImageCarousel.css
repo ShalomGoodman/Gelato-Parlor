@@ -1,4 +1,4 @@
-.big-image-carousel-container {
+/*.big-image-carousel-container {
     width: 393px;
     height: 250px;
     position: relative;
@@ -38,9 +38,9 @@
 }
 
 .chosen {
-    background-color: rgba(217, 217, 218, 1);
+    background-color: rgba(217, 217, 217, 1);
 }
 
 .not-chosen {
     background-color: rgba(217, 217, 217, 0.5);
-}
+}*/

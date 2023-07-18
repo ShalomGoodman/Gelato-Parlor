@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react';
+
+/*import React, { useState, useEffect } from 'react';
 import image1 from '../../assets/images/Carousel Edited (393x250) 72ppi/Carousel 1.png';
 import image2 from '../../assets/images/Carousel Edited (393x250) 72ppi/Carousel 3.png';
 import image3 from '../../assets/images/Carousel Edited (393x250) 72ppi/Carousel 4.png';
@@ -61,5 +62,5 @@ export default function BigImageCarousel() {
       <MeatBalls index={index} meatball={meatball}/>
     </div>
   );
-}
+}*/
 

@@ -1,35 +1,31 @@
 
 /*----- Flavor Card -----*/
-.flavor-card-container {
+/* .flavor-card-container {
   width: 120px;
   height: 164px;
 
   display: flex;
   flex-direction: column;
-}
+} */
 
-.flavor-image-container {
+/* .flavor-image-container {
   width: 120px;
   height: 120px;
   background-color: #FFFFFF;
   box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.15);
   border-radius: 10px;
-
-  /*display: flex;
-  justify-content: center;*/
-}
-.flavor-image {
+} */
+/* .flavor-image {
   width: 100px;
   height: 100px;
   padding: 10px 10px 10px 10px; 
-  /*align-self: center;*/
-}
+} */
 
-.flavor-text-container {
+/* .flavor-text-container {
   width: 88px;
   height: 34px;
-}
-.flavor-text {
+} */
+/* .flavor-text {
   color: #2F1921;
   font-family: Inter;
   font-size: 14px;
@@ -37,10 +33,10 @@
   line-height: 17px;
   letter-spacing: -0.16500000655651093px;
   text-align: center;
-}
+} */
 
 /*----- flavors-carousel -----*/
-.flavor-carousel-container {
+/* .flavor-carousel-container {
   width: 393px;
   height: 164px;
   overflow-x: scroll;
@@ -48,9 +44,9 @@
   white-space: nowrap;
   scroll-behavior: smooth;
 
-}
+} */
 
-.flavor-carousel-content {
+/* .flavor-carousel-content {
   width: 393px;
   height: 164px;
   display: flex;
@@ -59,9 +55,9 @@
 
   animation: bounce 0.5s;
   animation-fill-mode: both;
-}
+} */
 
-@keyframes bounce {
+/* @keyframes bounce {
   0%, 100% {
     transform: translateX(0);
   }
@@ -71,4 +67,4 @@
   70% {
     transform: translateX(10px);
   }
-}
+} */
