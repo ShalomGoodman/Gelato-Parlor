@@ -9,6 +9,7 @@ import { ThemeProvider, ThemeContext } from './context/themeContext';
 import FlavorCarousel from './components/cards/flavors-carousel';
 import SplitCard from './components/cards/split-card';
 import SplitCardContainer from './components/cards/splitCardContainer';
+import BigImageCarousel from './components/big-image-carousel/big-image';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function AppContent() {
         <Header />
       </header>
       <div className="App-body">
+        <BigImageCarousel />
         <FlavorCarousel />
         <FullCard />
       </div>
