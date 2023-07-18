@@ -40,7 +40,7 @@ export default function TableCellCard() {
         <img src={vanilla} alt="vanilla-flavoured" />
         <div className="letter-table3">
           <p className={`vanilla-title ${isDarkMode ? "dark" : ""}`}>Vanilla Chocolate Chip</p>
-          <p className={`vanilla-p ${isDarkMode ? "dark" : ""}`} >Irresistible, creamy and velvety</p>
+          <p className={`vanilla-p fuck-you ${isDarkMode ? "dark" : ""}`} >Irresistible, creamy and velvety</p>
           <div className='table-cell__button' >
             Grab
           </div>

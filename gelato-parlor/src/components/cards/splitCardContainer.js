@@ -18,7 +18,7 @@ function SplitCardContainer() {
             />
             <SplitCard
                 title="Pistachio Dream"
-                description="Nutty bliss in every scoop, premium pistachios take you"
+                description="Nutty bliss in every scoop, premium pistachios take you to paradise"
                 image={mustardImage}
                 isDarkMode={isDarkMode}
             />

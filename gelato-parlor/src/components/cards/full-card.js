@@ -7,12 +7,12 @@ function FullCard() {
   const { isDarkMode, toggleTheme } = useContext(ThemeContext);
 
   return (
-    <div className="full-card">
+    <div className={`full-card ${isDarkMode ? 'dark' : ''}`}>
       <div className='full-card__image-container'>
         <img className='full-card__image' src={image} alt='placeholder' />
       </div>
       <div className={`full-card__content ${isDarkMode ? 'dark' : ''}`}>
-        <h3 className={`full-card__title ${isDarkMode ? 'dark' : ''}`}>Pistachio</h3>
+        <h3 className={`full-card__title ${isDarkMode ? 'dark' : ''}`}>Pomegranate Whispers</h3>
         <p className={`full-card__description ${isDarkMode ? 'dark' : ''}`}>
           Harmonious blend: creamy vanilla, roasted pistachios, and tangy pomegranate
         </p>
@@ -23,5 +23,6 @@ function FullCard() {
     </div>
   );
 }
+
 
 export default FullCard;

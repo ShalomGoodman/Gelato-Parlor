@@ -21,9 +21,9 @@ export default function FlavorCarousel() {
             <FlavorCard text='Cherry' image={cherry}/>
             <FlavorCard text='Chocolate Kahlua' image={chocolateKahlua}/>
             <FlavorCard text='Fig' image={fig}/>
-            <FlavorCard text='Mango' image={mango}/>
             <FlavorCard text='Passion Fruit' image={passionFruit}/>
             <FlavorCard text='Vanilla Chocolate-Chip' image={vanillaChocolateChip}/>
+            <FlavorCard text='Mango' image={mango}/>
         </div>
     </div>
   )

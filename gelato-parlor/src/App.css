@@ -1,39 +1,46 @@
-
 /*----- Flavor Card -----*/
-
+* {
+  transition: all 0.4s ease;
+}
 .flavor-card-container {
   width: 120px;
-  height: 164px;
-
+  height: auto;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .App {
   text-align: center;
-
 }
+
+.App.light {
+  background-color: #fff;  /* Light mode background color */
+}
+
+.App.dark {
+  background-color: #000;  /* Dark mode background color */
+}
+
 .flavor-image-container {
   width: 120px;
   height: 120px;
   background-color: #FFFFFF;
   box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.15);
   border-radius: 10px;
-
-  /*display: flex;
-  justify-content: center;*/
 }
+
 .flavor-image {
   width: 100px;
   height: 100px;
-  padding: 10px 0 10px 10px; 
-  /*align-self: center;*/
+  padding: 10px 10px 10px 10px; 
 }
 
 .flavor-text-container {
   width: 88px;
-  height: 34px;
+  height: auto;
 }
+
 .flavor-text {
   color: #2F1921;
   font-family: Inter;
@@ -42,17 +49,34 @@
   line-height: 17px;
   letter-spacing: -0.16500000655651093px;
   text-align: center;
+  word-break: break-word;
 }
 
+.flavor-image-container.light {
+  background-color: #FFFFFF;
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+.flavor-image-container.dark {
+  background-color: #2f1921;
+}
+
+.flavor-text.light {
+  color: #2F1921;
+}
+
+.flavor-text.dark {
+  color: #fff;
+}
 /*----- flavors-carousel -----*/
+
 .flavor-carousel-container {
   width: 393px;
-  height: 164px;
+  height: 184px;
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
   scroll-behavior: smooth;
-
 }
 
 .flavor-carousel-content {
