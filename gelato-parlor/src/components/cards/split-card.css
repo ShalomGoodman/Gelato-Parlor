@@ -96,9 +96,9 @@
     color: #2f1921;
 }
 
-.grab.dark {
+/* .grab.dark {
     color: #fff;
-}
+} */
 
 .thin-button {
     position: absolute;
@@ -117,10 +117,10 @@
     align-items: center;
     justify-content: center;
 }
-
+/* 
 .thin-button.dark {
     background-color: #2f1921;
-}
+} */
 
 .split-card-light-hifi {
     position: relative;
