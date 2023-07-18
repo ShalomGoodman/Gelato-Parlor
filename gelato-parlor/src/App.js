@@ -20,6 +20,7 @@ function App() {
           <FlavorCarousel />
           <FullCard />
         </div>
+        <SplitCardContainer />
         <div className="App-footer">
           <Footer/>
         </div>
