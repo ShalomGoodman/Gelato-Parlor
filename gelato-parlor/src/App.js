@@ -7,7 +7,7 @@ import FullCard from './components/cards/full-card';
 import TableCellCard from './components/cards/table-cell-card';
 import { ThemeProvider, ThemeContext } from './context/themeContext';
 import FlavorCarousel from './components/cards/flavors-carousel';
-import SplitCard from './components/cards/split-card';
+// import SplitCard from './components/cards/split-card';
 import SplitCardContainer from './components/cards/splitCardContainer';
 import BigImageCarousel from './components/big-image-carousel/big-image';
 
