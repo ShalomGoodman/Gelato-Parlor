@@ -12,7 +12,7 @@ function FullCard() {
         <img className='full-card__image' src={image} alt='placeholder' />
       </div>
       <div className={`full-card__content ${isDarkMode ? 'dark' : ''}`}>
-        <h3 className={`full-card__title ${isDarkMode ? 'dark' : ''}`}>Pistachio</h3>
+        <h3 className={`full-card__title ${isDarkMode ? 'dark' : ''}`}>Pomegranate Whispers</h3>
         <p className={`full-card__description ${isDarkMode ? 'dark' : ''}`}>
           Harmonious blend: creamy vanilla, roasted pistachios, and tangy pomegranate
         </p>

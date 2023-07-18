@@ -1,6 +1,7 @@
 /* body {
   background: var(--yellow, #f3c76b);
 } */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
 .footer-container {
   width: 393px;
@@ -34,7 +35,7 @@
 .Subheader {
   color: #000;
   /* Subheader */
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;  /* <-- change here */
   font-size: 17px;
   font-style: normal;
   font-weight: 600;
@@ -46,7 +47,7 @@
 .small-text {
   color: #000;
   /* Smaller Text */
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;  /* <-- and here */
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
