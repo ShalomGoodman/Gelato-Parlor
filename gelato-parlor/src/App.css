@@ -2,7 +2,7 @@
 
 .flavor-card-container {
   width: 120px;
-  height: 164px;
+  height: auto;
   display: flex;
   flex-direction: column;
 }
@@ -35,7 +35,7 @@
 
 .flavor-text-container {
   width: 88px;
-  height: 34px;
+  height: auto;
 }
 
 .flavor-text {
@@ -46,8 +46,26 @@
   line-height: 17px;
   letter-spacing: -0.16500000655651093px;
   text-align: center;
+  word-break: break-word;
 }
 
+.flavor-image-container.light {
+  background-color: #FFFFFF;
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+.flavor-image-container.dark {
+  background-color: #2f1921;
+  box-shadow: 0 3px 10px 0 rgba(255, 255, 255, 0.15);
+}
+
+.flavor-text.light {
+  color: #2F1921;
+}
+
+.flavor-text.dark {
+  color: #fff;
+}
 /*----- flavors-carousel -----*/
 
 .flavor-carousel-container {
