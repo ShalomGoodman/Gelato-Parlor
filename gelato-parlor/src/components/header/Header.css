@@ -10,13 +10,13 @@
   }
   
   .logo-container {
-    width: 125px;
+    width: 130px;
     height: 45px;
     flex-shrink: 0;
   }
   
   .toggle-container {
-    width: 64px;
+    width: 70px;
     height: 30px;
     flex-shrink: 0;
   }
@@ -58,4 +58,9 @@ height: 30px;
 
 .checkbox:checked + .checkbox-label .ball {
   transform: translateX(24px);
+}
+
+.logo-image {
+  width: 125px;
+  height: 45px;
 }
