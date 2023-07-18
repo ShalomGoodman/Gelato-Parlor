@@ -11,10 +11,16 @@ function App() {
   return (
     <ThemeProvider> 
       <div className="App">
-        <Header />
-        <FlavorCarousel />
-        <FullCard />
-        <Footer/>
+        <header className="App-header">
+          <Header />
+        </header>
+        <div className="App-body">
+          <FlavorCarousel />
+          <FullCard />
+        </div>
+        <div className="App-footer">
+          <Footer/>
+        </div>
       </div>
     </ThemeProvider>
   );

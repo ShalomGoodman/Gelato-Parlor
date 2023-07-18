@@ -11,7 +11,7 @@ function Header() {
     return (
         <div className={`header-container ${isDarkMode ? 'dark' : 'light'}`}>
             <div className="logo-container">
-                <img src={logo} alt="logo" />
+                <img className="logo-image" src={logo} alt="logo" />
             </div>
             <div className="toggle-container">
                 <input 
