@@ -1,7 +1,7 @@
 import React from 'react';
 import SplitCard from './split-card';
-import mustardImage from './assets/images/Split Card Edited (170x158) 72ppi/Mustard.png';
-import amarettoImage from './assets/images/Split Card Edited (170x158) 72ppi/Coffee.png';
+import mustardImage from '../../assets/images/Split Card Edited (170x158) 72ppi/Mustard.png';
+import amarettoImage from '../../assets/images/Split Card Edited (170x158) 72ppi/Coffee.png';
 import './card-container.css';
 
 function SplitCardContainer() {
