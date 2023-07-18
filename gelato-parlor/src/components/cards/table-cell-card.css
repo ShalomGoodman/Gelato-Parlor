@@ -49,6 +49,7 @@
   width: 100px;
   height: 100px;
   flex-shrink: 0;
+  margin: 17px;
 }
 
 .frame-1 .content-container,
@@ -70,13 +71,21 @@
   flex: 1;
 }
 .fig-title {
-  margin: 7px 0px 0px -101px;
+  margin: 15px 0px 0px -120px;
 }
 .passion-title {
-  margin: 7px 0px 0px -120px;
+  margin: 20px 0px 0px -125px;
 }
 .vanilla-title {
-  margin: 7px 0px 0px -57px;
+  margin: 25px 0px 0px -44px;
+}
+
+.vanilla-p.dark, .vanilla-p.light {
+  margin-right: -36px;
+}
+
+.frame-3 .letter-table3 p + p {
+  margin: 6px 0px 12px 0px;
 }
 
 .frame-1 .letter-table1 p,
@@ -126,5 +135,17 @@
   line-height: normal;
   letter-spacing: -0.165px;
   user-select: none;
-  margin-left: 10px;
+  margin-left: -7px;
+}
+
+.frame-2 .table-cell__button {
+  margin-left: -1px;
+}
+
+.frame-3 .table-cell__button {
+  margin-left: -2px;
+}
+
+.frame-3 .letter-table3 .fuck-you {
+  margin-left: -25px;
 }

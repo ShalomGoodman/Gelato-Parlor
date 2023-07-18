@@ -26,8 +26,8 @@ function AppContent() {
     <div className={`App ${isDarkMode ? 'dark' : 'light'}`}>
       <header className="App-header">
         <Header />
+        <BigImageCarousel />
       </header>
-      <BigImageCarousel />
       <div className="App-body">
         <FlavorCarousel />
         <FullCard />
