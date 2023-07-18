@@ -15,6 +15,9 @@
 .full-card__content.dark {
     background-color: #2f1921;
 }
+.full-card.dark {
+    box-shadow: none;
+}
 
 .full-card__content  {
     background: ffffff;
