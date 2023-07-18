@@ -30,7 +30,7 @@
 }
 
 /* Shared styles for the images */
-.frame-1 .fig-flavour,
+.frame-1 img,
 .frame-2 img,
 .frame-3 img {
   width: 100px;
@@ -44,6 +44,7 @@
 .frame-3 .content-container {
   flex: 1;
   display: flex;
+  
   justify-content: space-between;
   align-items: center;
 }
@@ -55,47 +56,51 @@
   width: 225px;
   height: 100px;
   flex-shrink: 0;
+  flex: 1;
+}
+.fig-title{
+    margin: 7px 0px 0px -101px;
+}
+.passion-title{
+    margin: 7px 0px 0px -120px;
+}
+.vanilla-title{
+    margin: 7px 0px 0px -57px;
 }
 
-/* Shared styles for the titles */
-.frame-1 .title1,
+
+
+
+.frame-1 .letter-table1 p,
 .frame-2 .letter-table2 p,
 .frame-3 .letter-table3 p {
-  width: 200px;
-  /* Subheader */
-  font-family: Inter;
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  letter-spacing: -0.165px;
+    color: #000000;
+    /* Subheader styles */
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.165px;
 }
 
 /* Shared styles for the paragraphs */
-.frame-1 .p1,
+.frame-1 .letter-table1 p + p,
 .frame-2 .letter-table2 p + p,
 .frame-3 .letter-table3 p + p {
-  width: 225px;
-  font-family: Inter;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: -0.165px;
+    color: #000000;
+    /* Smaller Text styles */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.165px;
+    margin: 6px 0px 12px -40px;
 }
 
-/* Shared styles for the buttons */
-.frame-1 .button1,
-.frame-2 button,
-.frame-3 button {
-  display: inline-flex;
-  padding: 3px 30px;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-  border-radius: 20px;
-  background: var(--yellow, #f3c76b);
-}
+
+
 
 .table-cell-card {
     box-shadow: 5px 5px 5px rgb(223, 223, 223);
@@ -162,7 +167,7 @@
     margin: 6px 0px 12px 0px;
 }
 
-.table-cell-card__button {
+.table-cell__button {
     display: flex;
     width: 60px;
     height: 27px;
