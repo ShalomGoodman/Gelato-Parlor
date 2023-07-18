@@ -1,4 +1,6 @@
 .card-container {
     display: flex;
     gap: 20px;  /* adjust this value to increase or decrease the space between cards */
+    margin: 0 17px;
+    margin-bottom: 16px;
 }
