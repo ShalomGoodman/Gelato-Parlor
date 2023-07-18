@@ -6,6 +6,8 @@ import Header from './components/header/header';
 import FullCard from './components/cards/full-card';
 import { ThemeProvider } from '../src/context/themeContext';
 import FlavorCarousel from './components/cards/flavors-carousel';
+import SplitCard from './components/cards/split-card';
+import SplitCardContainer from './components/cards/splitCardContainer';
 
 function App() {
   return (
