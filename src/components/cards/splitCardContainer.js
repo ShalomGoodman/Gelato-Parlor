@@ -5,6 +5,7 @@ import amarettoImage from '../../assets/images/Split Card Edited (170x158) 72ppi
 import './card-container.css';
 import { ThemeContext } from '../../context/themeContext';  // adjust path as necessary
 
+
 function SplitCardContainer() {
     const { isDarkMode } = useContext(ThemeContext);
     return (

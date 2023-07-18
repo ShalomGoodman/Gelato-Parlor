@@ -92,3 +92,7 @@
 .App-header, .App-footer {
   width: 100%;
 }
+
+.App.dark {
+  background-color: #000000;
+}
