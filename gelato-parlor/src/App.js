@@ -28,8 +28,8 @@ function AppContent() {
         <Header />
         <BigImageCarousel />
       </header>
+      
       <div className="App-body">
-
         <FlavorCarousel />
         <FullCard />
       </div>
