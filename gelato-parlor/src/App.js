@@ -30,7 +30,6 @@ function AppContent() {
       </header>
       
       <div className="App-body">
-       
         <FlavorCarousel />
         <FullCard />
       </div>
