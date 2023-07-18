@@ -1,15 +1,27 @@
-import React from 'react'
-import flavor from '../../assets/images/List View Edited (100x100) 72ppi/Amaretto Crunch.png'
+import React, { useContext } from 'react';
+import { ThemeContext } from '../../context/themeContext';
 
-export default function FlavorCard(props) {
-    const textSplit = props.text.split(' ');
+function FlavorCard({ text, image }) {
+  const { isDarkMode } = useContext(ThemeContext);
 
-    return (
-    <div className='flavor-card-container'>
-        <div className='flavor-image-container'> <img src={props.image} className='flavor-image'/> </div>
-        <div classNam='flavor-text-container'>
-            <p className='flavor-text'>{textSplit[0]}<br/>{textSplit[1]}</p>
-        </div>
+  // Split the text into parts.
+  const textSplit = text.split(' ');
+
+  // Join all parts except the first one.
+  const remainingText = textSplit.slice(1).join(' ');
+
+  return (
+    <div className={`flavor-card-container ${isDarkMode ? 'dark' : 'light'}`}>
+      <div className={`flavor-image-container ${isDarkMode ? 'dark' : 'light'}`}>
+        <img className="flavor-image" src={image} alt={text} />
+      </div>
+      <div className="flavor-text-container">
+        <p className={`flavor-text ${isDarkMode ? 'dark' : 'light'}`}>
+          {textSplit[0]}<br/>{remainingText}
+        </p>
+      </div>
     </div>
   )
 }
+
+export default FlavorCard;
