@@ -51,12 +51,12 @@
 }
 
 .flavor-carousel-content {
-  width: 393px;
+  width: 100%;
   height: 164px;
   display: flex;
-  padding: 0 17px 0 17px;
+  padding: 0 17px 0 0px;
   gap: 17px;
-
+  margin-top: 17px;
   animation: bounce 0.5s;
   animation-fill-mode: both;
 }
@@ -71,4 +71,19 @@
   70% {
     transform: translateX(10px);
   }
+}
+
+/*----- flavors-carousel-controls -----*/
+
+.App-body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 17px;
+}
+
+.App-header, .App-footer {
+  width: 100%;
 }

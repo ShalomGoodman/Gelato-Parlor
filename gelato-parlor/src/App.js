@@ -1,24 +1,31 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+
+import Footer from '../src/components/footer'
+import Header from './components/header/header';
+import FullCard from './components/cards/full-card';
+import TableCellCard from './components/cards/table-cell-card';
+import { ThemeProvider } from '../src/context/themeContext';
+import FlavorCarousel from './components/cards/flavors-carousel';
+import SplitCard from './components/cards/split-card';
+import SplitCardContainer from './components/cards/splitCardContainer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider> 
+      <div className="App">
+        <header className="App-header">
+          <Header />
+        </header>
+        <div className="App-body">
+          <FlavorCarousel />
+          <FullCard />
+        </div>
+        <div className="App-footer">
+          <Footer/>
+        </div>
+      </div>
+    </ThemeProvider>
   );
 }
 
