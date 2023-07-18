@@ -27,8 +27,8 @@ function AppContent() {
       <header className="App-header">
         <Header />
       </header>
+      <BigImageCarousel />
       <div className="App-body">
-        <BigImageCarousel />
         <FlavorCarousel />
         <FullCard />
       </div>
