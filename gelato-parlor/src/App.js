@@ -7,16 +7,23 @@ import FullCard from './components/cards/full-card';
 import TableCellCard from './components/cards/table-cell-card';
 import { ThemeProvider } from '../src/context/themeContext';
 import FlavorCarousel from './components/cards/flavors-carousel';
+import SplitCard from './components/cards/split-card';
+import SplitCardContainer from './components/cards/splitCardContainer';
 
 function App() {
   return (
     <ThemeProvider> 
       <div className="App">
-        <Header />
-        <FlavorCarousel />
-        <FullCard />
-        <TableCellCard />
-        <Footer/>
+        <header className="App-header">
+          <Header />
+        </header>
+        <div className="App-body">
+          <FlavorCarousel />
+          <FullCard />
+        </div>
+        <div className="App-footer">
+          <Footer/>
+        </div>
       </div>
     </ThemeProvider>
   );
